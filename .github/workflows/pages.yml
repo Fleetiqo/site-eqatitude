@@ -1,0 +1,56 @@
+name: Deploy design preview to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DATA_DIR: ./storage-ci
+      SITE_URL: http://localhost:3000
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run db:migrate && npm run db:seed
+      - run: npm run build
+      - name: Snapshot public pages as static HTML
+        run: |
+          npm start -- -p 3000 &
+          npx --yes wait-on http://localhost:3000 --timeout 60000
+          mkdir out && cd out
+          wget --mirror --page-requisites --convert-links --adjust-extension \
+               --no-host-directories --reject-regex '/admin|/api' -e robots=off \
+               http://localhost:3000/ http://localhost:3000/equitation http://localhost:3000/amenagement \
+               http://localhost:3000/nouveautes http://localhost:3000/devis http://localhost:3000/contact \
+               http://localhost:3000/mentions-legales || true
+          touch .nojekyll
+          ls -R | head -50
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
