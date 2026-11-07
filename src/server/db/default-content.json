@@ -1,0 +1,313 @@
+{
+  "settings": {
+    "business": {
+      "name": "Sellerie Equ'Attitud",
+      "tagline": "Sellerie, équipement équestre et aménagement d'écurie à Quimper",
+      "phone": "02 98 53 01 77",
+      "phoneIntl": "+33298530177",
+      "email": "contact@sellerie-equattitud.fr",
+      "address": "7 allée du Dr Picquenard",
+      "city": "29000 Quimper",
+      "facebook": "https://www.facebook.com/equattitud",
+      "instagram": "https://www.instagram.com/sellerie.equattitud/",
+      "mapQuery": "7 allée du Docteur Picquenard, 29000 Quimper"
+    },
+    "announcement": {
+      "enabled": false,
+      "text": "",
+      "from": "",
+      "to": ""
+    },
+    "google": {
+      "enabled": true,
+      "note": "4,3",
+      "reviewCount": 99,
+      "url": "https://www.google.com/maps/search/?api=1&query=Equ%27Attitud%2C%207%20All.%20Dr%20Picquenard%2C%2029000%20Quimper"
+    },
+    "legal": {
+      "companyName": "Sellerie Equ'Attitud",
+      "legalForm": "",
+      "siret": "",
+      "vatNumber": "",
+      "defaultVatRate": 20,
+      "quoteValidityDays": 30,
+      "quoteConditions": "Devis gratuit, valable 30 jours à compter de sa date d'émission. Prix exprimés en euros."
+    }
+  },
+  "hours": [
+    {
+      "day": "Lundi",
+      "slots": "09:00-12:30, 14:00-19:00"
+    },
+    {
+      "day": "Mardi",
+      "slots": "09:00-12:30, 14:00-19:00"
+    },
+    {
+      "day": "Mercredi",
+      "slots": "09:00-12:30, 14:00-19:00"
+    },
+    {
+      "day": "Jeudi",
+      "slots": "09:00-12:30, 14:00-19:00"
+    },
+    {
+      "day": "Vendredi",
+      "slots": "09:00-12:30, 14:00-19:00"
+    },
+    {
+      "day": "Samedi",
+      "slots": "09:00-19:00"
+    },
+    {
+      "day": "Dimanche",
+      "slots": ""
+    }
+  ],
+  "blocks": {},
+  "brands": [
+    "Equiline",
+    "HKM",
+    "Lauria Garrelli",
+    "Pénélope",
+    "Horse Master",
+    "Heiniger",
+    "Flex-On",
+    "Antarès",
+    "Ego7",
+    "Amigo"
+  ],
+  "departments": [
+    {
+      "id": "r1",
+      "title": "Le cavalier",
+      "text": "Vestes de concours, pantalons, bottes et boots, vêtements chauds pour l'hiver, gants et accessoires.",
+      "image": "/img/veste-2.jpg"
+    },
+    {
+      "id": "r2",
+      "title": "Sécurité",
+      "text": "Casques et gilets airbag, plusieurs tailles et modèles à essayer directement en magasin.",
+      "image": "/img/casque-essai-1.jpg"
+    },
+    {
+      "id": "r3",
+      "title": "Le cheval",
+      "text": "Tapis, bonnets, licols, couvertures, protections et étriers.",
+      "image": "/img/tapis-2.jpg"
+    },
+    {
+      "id": "r4",
+      "title": "Soins & alimentation",
+      "text": "Soins, baumes, compléments, aliments et produits d'entretien du cuir.",
+      "image": "/img/soins-pharmacie.jpg"
+    }
+  ],
+  "fittingOffers": [
+    {
+      "id": "a1",
+      "title": "Clôtures",
+      "text": "Clôtures de prairie et de paddock : lisses, clôtures électriques, poteaux et accessoires. Nous dimensionnons l'installation selon vos animaux et votre terrain.",
+      "image": "/img/paddock-barrieres.jpg"
+    },
+    {
+      "id": "a2",
+      "title": "Portails & barrières",
+      "text": "Barrières de prairie et portails en acier galvanisé, lisses de carrière, passages d'homme.",
+      "image": "/img/portail-prairie.jpg"
+    },
+    {
+      "id": "a3",
+      "title": "Box & écuries",
+      "text": "Façades de box, box intérieurs et extérieurs, équipements (mangeoires, abreuvoirs, portes).",
+      "image": "/img/lisses-acier.jpg"
+    },
+    {
+      "id": "a4",
+      "title": "Abris de prairie",
+      "text": "Abris fixes ou mobiles pour protéger vos chevaux du vent et de la pluie.",
+      "image": "/img/abri-paddock.jpg"
+    },
+    {
+      "id": "a5",
+      "title": "Sols & stabilisation",
+      "text": "Dalles alvéolées et stabilisateurs drainants, disponibles en stock : des sols stables et drainés pour les box, abris, paddocks et chemins.",
+      "image": "/img/chemin-stabilise.jpg"
+    },
+    {
+      "id": "a6",
+      "title": "Carrières & paddocks",
+      "text": "Création ou rénovation de carrière et de paddock : clôture, lisses et sol.",
+      "image": "/img/terrassement.jpg"
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "title": "Location de tondeuse",
+      "text": "Tondeuses professionnelles en location à la journée, avec les conseils d'utilisation.",
+      "image": "/img/rayon-protections.jpg"
+    },
+    {
+      "id": "s2",
+      "title": "Lavage",
+      "text": "Couvertures, tapis et matériel équestre : déposez-les en magasin, nous nous chargeons du nettoyage.",
+      "image": "/img/service-nettoyage.jpg"
+    },
+    {
+      "id": "s3",
+      "title": "Affûtage",
+      "text": "Affûtage de vos lames de tondeuse pour une coupe nette.",
+      "image": ""
+    },
+    {
+      "id": "s4",
+      "title": "Selles d'occasion",
+      "text": "Un choix de selles d'occasion à essayer sur place. Dressage, mixte, obstacle.",
+      "image": "/img/selle-4.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Dalles alvéolées et stabilisateurs drainants en stock",
+      "text": "Une solution durable pour stabiliser vos sols tout en favorisant le drainage naturel des eaux de pluie. Idéal pour les box, abris de pré, paddocks et abords d'écurie. Demandez votre devis.",
+      "image": "/img/chemin-stabilise.jpg",
+      "universe": "amenagement",
+      "publishDate": "2026-10-20",
+      "published": true,
+      "featured": false
+    },
+    {
+      "id": "n2",
+      "title": "Baumes Horse Master Zen Care et Respi Care",
+      "text": "Deux baumes naturels aux huiles essentielles : Zen Care pour apaiser le cheval lors du transport ou des concours, Respi Care pour le confort respiratoire face au froid et à la poussière. 19,50 € chacun.",
+      "image": "",
+      "universe": "equitation",
+      "publishDate": "2026-10-28",
+      "published": true,
+      "featured": false
+    },
+    {
+      "id": "n3",
+      "title": "La saison de tonte commence",
+      "text": "Tondeuses HKM et Heiniger en vente, location de tondeuse et affûtage de vos lames en magasin.",
+      "image": "/img/rayon-protections.jpg",
+      "universe": "equitation",
+      "publishDate": "2026-10-10",
+      "published": true,
+      "featured": false
+    },
+    {
+      "id": "n4",
+      "title": "Nouvelle collection automne-hiver",
+      "text": "Equiline, Lauria Garrelli, HKM, Pénélope : tapis, bonnets, vestes et vêtements chauds sont arrivés en magasin.",
+      "image": "/img/tapis-1.jpg",
+      "universe": "equitation",
+      "publishDate": "2026-10-01",
+      "published": true,
+      "featured": false
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "src": "/img/barriere-carriere.jpg",
+      "caption": "Lisses de carrière",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g2",
+      "src": "/img/carriere.jpg",
+      "caption": "Carrière clôturée",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g3",
+      "src": "/img/terrassement.jpg",
+      "caption": "Préparation du sol",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g4",
+      "src": "/img/portail-prairie.jpg",
+      "caption": "Barrière de prairie",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g5",
+      "src": "/img/chemin-stabilise.jpg",
+      "caption": "Accès stabilisé",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g6",
+      "src": "/img/lisses-acier.jpg",
+      "caption": "Lisses en acier galvanisé",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g7",
+      "src": "/img/paddock-barrieres.jpg",
+      "caption": "Paddock",
+      "universe": "amenagement"
+    },
+    {
+      "id": "g8",
+      "src": "/img/cavaliere-tapis.jpg",
+      "caption": "Essayage en magasin",
+      "universe": "equitation"
+    },
+    {
+      "id": "g9",
+      "src": "/img/selle-1.jpg",
+      "caption": "Selle de dressage d'occasion",
+      "universe": "equitation"
+    },
+    {
+      "id": "g10",
+      "src": "/img/veste-3.jpg",
+      "caption": "Veste de concours",
+      "universe": "equitation"
+    },
+    {
+      "id": "g11",
+      "src": "/img/tapis-3.jpg",
+      "caption": "Tapis et bonnet assortis",
+      "universe": "equitation"
+    },
+    {
+      "id": "g12",
+      "src": "/img/casque-essai-2.jpg",
+      "caption": "Casques",
+      "universe": "equitation"
+    },
+    {
+      "id": "g13",
+      "src": "/img/cheval-portrait.jpg",
+      "caption": "",
+      "universe": "equitation"
+    },
+    {
+      "id": "g14",
+      "src": "/img/selle-3.jpg",
+      "caption": "Selle mixte d'occasion",
+      "universe": "equitation"
+    },
+    {
+      "id": "g15",
+      "src": "/img/bottes-ego7.jpg",
+      "caption": "Bottes Ego7",
+      "universe": "equitation"
+    },
+    {
+      "id": "g16",
+      "src": "/img/entretien-antares.jpg",
+      "caption": "Entretien du cuir",
+      "universe": "equitation"
+    }
+  ],
+  "usedItems": [],
+  "reviews": [],
+  "closures": []
+}

@@ -1,0 +1,17 @@
+# Dépendances et build
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environnement
+.env
+.env.*
+!.env.example
+
+# Données d'exécution (base SQLite, photos envoyées, journaux)
+storage/
+
+# Système
+.DS_Store

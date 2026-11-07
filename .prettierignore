@@ -1,0 +1,6 @@
+.next
+node_modules
+storage
+drizzle
+package-lock.json
+src/styles/*.css
